@@ -97,7 +97,7 @@ class BlogPost extends Page
      *
      * @var string
      */
-    private static $default_sort = 'CASE WHEN "PublishDate" IS NULL THEN 0 ELSE "PublishDate" END ASC';
+    private static $default_sort = 'CASE WHEN "PublishDate" IS NULL THEN 0 ELSE "PublishDate" END DESC';
 
 
     /**
